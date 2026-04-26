@@ -95,7 +95,7 @@ function renderKalkulatorDinamis(data) {
                             <p id="calc-total-harga" class="text-4xl font-black text-amber-600 tracking-tight">Rp 0</p>
                         </div>
                         <button id="btn-pesan-paket" class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-xl shadow-lg flex items-center justify-center gap-2">
-                            <span>💬</span> Kirim Pesanan ke WA
+                            <span>☎️</span> Kirim Pesanan ke WA
                         </button>
                     </div>
                     <div id="alert-mitra" class="hidden bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
