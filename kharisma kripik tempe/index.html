@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kripik Tempe Kharisma</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-amber-50 text-gray-800 font-sans">
+    
+    <nav class="bg-amber-600 text-white p-4 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4 max-w-6xl">
+            <a href="#" class="flex items-center gap-3">
+                <img src="logo.png" alt="Logo Kharisma" class="h-10 w-auto bg-white/20 rounded">
+                <h1 class="text-2xl font-bold tracking-wider hidden sm:block">KHARISMA</h1>
+            </a>
+            <div class="flex gap-4 items-center">
+                <a href="#katalog" class="hover:text-amber-200 transition font-medium text-sm">Katalog</a>
+                <a href="#kontak" class="hover:text-amber-200 transition font-medium text-sm">Lokasi</a>
+                <a href="#katalog" class="bg-white text-amber-600 px-4 py-2 rounded-full text-xs font-bold shadow-md hover:bg-amber-50 transition">Beli Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container mx-auto px-4 py-16 md:py-24 max-w-6xl">
+        <div class="flex flex-col md:flex-row items-center gap-10">
+            
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-4xl md:text-6xl font-extrabold text-amber-800 mb-6 tracking-tight leading-tight">
+                    Kripik Tempe Kharisma
+                </h2>
+                <p class="text-xl md:text-2xl font-medium mb-4 text-amber-700">
+                    Renyahnya Asli, Gurihnya Bikin Kangen!
+                </p>
+                <p class="text-gray-600 mb-10 leading-relaxed text-lg">
+                    Diproses dari kedelai pilihan dengan bumbu rempah tradisional. Kami siap melayani pesanan segala skala—mulai dari porsi kecil untuk nyemil perorangan, hingga partai besar untuk hajatan, suplai perusahaan, maupun program Makan Bergizi Gratis (MBG).
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 items-center">
+                    <a href="#katalog" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300">
+                        Lihat Harga & Ukuran
+                    </a>
+                    
+                    <div class="flex gap-3 items-center">
+                        <a href="https://www.instagram.com/kripiktempekharisma" target="_blank" class="w-12 h-12 bg-white rounded-full shadow-md flex items-center justify-center text-2xl group hover:scale-110 transition duration-300" title="Ikuti kami di Instagram">
+                            <i class="fab fa-instagram text-transparent bg-clip-text bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#FCAF45]"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@kharismakripiktempe" target="_blank" class="w-12 h-12 bg-white rounded-full shadow-md flex items-center justify-center text-2xl group hover:scale-110 transition duration-300" title="Ikuti kami di TikTok">
+                            <i class="fab fa-tiktok text-black"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:w-1/2">
+                <img src="kharisma.png" alt="Kripik Tempe Kharisma" class="w-full h-auto rounded-3xl shadow-2xl bg-amber-200 aspect-video object-cover animate-float">
+            </div>
+        </div>
+    </header>
+
+    <section id="varian" class="bg-white py-16">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h3 class="text-3xl font-bold text-center text-amber-800 mb-12">Pilihan Varian Rasa</h3>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="border border-amber-200 rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300">
+                    <img src="kripikori.png" alt="Varian Original" class="w-full h-64 object-cover rounded-2xl mb-6 shadow-md bg-gray-200">
+                    <h4 class="text-2xl font-bold text-amber-600 mb-4 flex items-center gap-2"><span>🥔</span> Original</h4>
+                    <p class="text-gray-600 leading-relaxed">Nikmati cita rasa klasik yang tak pernah salah. Kripik Tempe Kharisma varian Original menghadirkan gurihnya perpaduan kedelai berkualitas dan bumbu rempah tradisional seperti bawang putih dan ketumbar.</p>
+                </div>
+                <div class="border border-red-200 rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300">
+                    <img src="kripikbalado.png" alt="Varian Balado" class="w-full h-64 object-cover rounded-2xl mb-6 shadow-md bg-gray-200">
+                    <h4 class="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2"><span>🌶️</span> Balado</h4>
+                    <p class="text-gray-600 leading-relaxed">Bagi pecinta rasa pedas manis, varian Balado ini adalah pilihan tepat! Bumbu baladonya yang tebal dan merata menyatu sempurna dengan renyahnya kripik tempe. Sensasi pedas, manis, dan gurihnya dijamin bikin nagih.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="katalog" class="py-20 bg-amber-50">
+        <div class="container mx-auto px-4 max-w-6xl text-center">
+            <h3 class="text-3xl font-bold text-amber-800 mb-4">Daftar Harga & Kalkulator Pesanan</h3>
+            <p class="text-gray-600 mb-12">Pilih kemasan eceran untuk santai, atau gunakan kalkulator paket di bawah untuk pesanan khusus.</p>
+            <div id="pricing-container" class="mb-12 w-full px-4"></div>
+            <div id="bundling-container" class="w-full px-4"></div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-20 bg-white">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-amber-800 mb-4">Lokasi Produksi</h3>
+                <p class="text-gray-600">Kunjungi tempat produksi kami untuk transaksi pertama kali (Khusus Mitra) atau sekadar mencicipi kelezatannya langsung.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 items-stretch">
+                <div class="rounded-3xl overflow-hidden shadow-xl border-4 border-amber-100 h-96">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=Kripik%20Tempe%20Kharisma,%20Karangjati,%20Ngawi&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                        class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                
+                <div class="bg-amber-600 rounded-3xl p-8 md:p-10 text-white flex flex-col justify-center">
+                    <h4 class="text-2xl font-bold mb-8 text-center md:text-left">Hubungi & Ikuti Kami</h4>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="p-4 bg-amber-500 rounded-full flex-shrink-0"><i class="fas fa-map-pin text-xl"></i></div>
+                            <div class="flex flex-col">
+                                <p class="font-bold text-lg leading-tight">Karangjati, Kab. Ngawi</p>
+                                <p class="text-sm text-amber-200">Jawa Timur 63284</p>
+                            </div>
+                        </div>
+                        
+                        <a href="https://www.instagram.com/kripiktempekharisma" target="_blank" class="bg-white rounded-xl p-4 flex items-center gap-4 text-gray-800 group hover:bg-pink-50 transition duration-300 shadow-lg">
+                            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-2xl shadow-inner border border-gray-100">
+                                <i class="fab fa-instagram text-transparent bg-clip-text bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#FCAF45]"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 font-bold uppercase">Instagram</p>
+                                <p class="font-bold text-lg hover:underline">@kripiktempekharisma</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.tiktok.com/@kharismakripiktempe" target="_blank" class="bg-white rounded-xl p-4 flex items-center gap-4 text-gray-800 group hover:bg-gray-100 transition duration-300 shadow-lg">
+                            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-2xl shadow-inner border border-gray-100">
+                                <i class="fab fa-tiktok text-black"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 font-bold uppercase">TikTok</p>
+                                <p class="font-bold text-lg hover:underline">@kharismakripiktempe</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-amber-900 text-amber-50 pt-16 pb-8 text-center md:text-left">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="grid md:grid-cols-2 gap-10 mb-12 border-b border-amber-800/50 pb-12">
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl font-bold mb-4">Tertarik Menjadi Agen atau Reseller?</h3>
+                    <p class="mb-6 text-amber-200/80 max-w-md mx-auto md:mx-0">Dapatkan penawaran dan harga khusus untuk pembelian partai besar. Kami siap menjadi penyuplai andalan bisnis Anda.</p>
+                    <button onclick="orderViaWA('Halo Admin, saya tertarik untuk menjadi agen/reseller Kripik Tempe Kharisma. Boleh minta info detail dan persyaratannya?')" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition flex items-center justify-center gap-2 mx-auto md:mx-0">
+                        <span>☎️</span> Hubungi via WhatsApp
+                    </button>
+                </div>
+                <div class="bg-amber-950/50 p-6 rounded-2xl border border-amber-800 text-center md:text-left">
+                    <h4 class="text-lg font-bold mb-4 text-amber-400 border-b border-amber-800/50 pb-2">Legalitas Usaha Terjamin</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start justify-center md:justify-start gap-3">
+                            <span class="text-xl">✅</span>
+                            <div>
+                                <p class="font-bold text-amber-50">Sertifikasi Halal</p>
+                                <p class="text-sm text-amber-200/70 font-mono mt-1">ID: ID35110048058500326</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start justify-center md:justify-start gap-3">
+                            <span class="text-xl">🏢</span>
+                            <div>
+                                <p class="font-bold text-amber-50">Nomor Induk Berusaha (NIB)</p>
+                                <p class="text-sm text-amber-200/70 font-mono mt-1">NIB: 2101260005971</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-center text-sm text-amber-400/60">
+                <p>&copy; 2026 Kripik Tempe Kharisma. Hak Cipta Dilindungi.</p>
+                <p class="mt-2 md:mt-0">Diproduksi secara higienis di Ngawi, Jawa Timur, Indonesia.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

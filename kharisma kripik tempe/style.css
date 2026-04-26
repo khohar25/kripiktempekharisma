@@ -1,0 +1,76 @@
+/* ==========================================================================
+   GAYA DASAR & PERILAKU BROWSER
+   ========================================================================== */
+
+/* Mengaktifkan efek scroll yang sangat halus saat pengunjung menekan tombol di navigasi */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Membuat render teks lebih tajam, bersih, dan profesional di semua jenis layar */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden; /* Mencegah website bisa digeser ke samping (mencegah bug tampilan di HP) */
+}
+
+/* ==========================================================================
+   KUSTOMISASI SCROLLBAR (TEMA KRIPIK TEMPE / AMBER)
+   ========================================================================== */
+
+/* Mengatur lebar scrollbar di sisi kanan layar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Mengatur warna latar belakang jalur scrollbar */
+::-webkit-scrollbar-track {
+    background: #fffbeb; /* Warna senada dengan background web (amber-50) */
+}
+
+/* Mengatur warna dan bentuk pegangan (handle) scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #d97706; /* Warna oranye kecokelatan (amber-600) */
+    border-radius: 10px;
+    border: 3px solid #fffbeb; /* Memberikan efek padding/jarak dari pinggir */
+}
+
+/* Mengatur warna pegangan scrollbar saat disentuh mouse (hover) */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b45309; /* Warna sedikit lebih gelap (amber-700) */
+}
+
+/* ==========================================================================
+   EFEK KUSTOM & ANIMASI HALUS
+   ========================================================================== */
+
+/* Efek untuk membuat gambar atau elemen seolah-olah mengambang perlahan */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Kelas ini bisa Anda tambahkan ke tag <img> di HTML jika ingin gambarnya bergerak.
+   Contoh: <img src="..." class="... animate-float">
+*/
+.animate-float {
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Efek stabilitas pada gambar saat proses hover agar transisinya tidak kaku */
+img {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+/* Menghilangkan border default biru saat tombol atau link ditekan di HP */
+a, button {
+    -webkit-tap-highlight-color: transparent;
+}
