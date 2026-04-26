@@ -1,7 +1,7 @@
 // ==========================================================================
 // PENGATURAN UTAMA
 // ==========================================================================
-const waNumber = "6281234567890"; // Ganti dengan nomor WA UMKM
+const waNumber = "6281252974002"; // Ganti dengan nomor WA UMKM
 let dataKatalog = null; 
 
 async function loadData() {
